@@ -18,7 +18,7 @@ int main() {
     }
 
     // this does the makey makey
-    snprintf(command, sizeof(command), "make -j%d && make modules_install -j%d", threads, threads);
+    snprintf(command, sizeof(command), "sudo make -j%d && sudo make modules_install -j%d", threads, threads);
 
     // this does the wakey wakey
     int result = system(command);
