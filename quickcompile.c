@@ -1,3 +1,7 @@
+/* This here is quickcompile, a nifty little program that saves you typing time when compiling Virtux... or even Linux for that matter!
+Just tell it how many threads ya got and away you go, less typing required! 
+It'll save you time, because when it comes to compiling something on the scale of the Linux or Virtux kernel, time is precious.*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
